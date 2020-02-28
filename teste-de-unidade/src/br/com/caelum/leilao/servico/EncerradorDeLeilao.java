@@ -24,6 +24,8 @@ public class EncerradorDeLeilao {
 				leilao.encerra();
 				total++;
 				dao.atualiza(leilao);
+				
+				//enviar email
 			}
 		}
 	}
